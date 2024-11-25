@@ -36,7 +36,7 @@ resource "aws_db_instance" "database_instance" {
   multi_az                = var.multi_az_deployment
   username                = var.db_username
   password                = var.db_password
-  db_name                 = var.db_name
+  db_name                 = var.db_username
   storage_encrypted       = true
   backup_retention_period = 7
   publicly_accessible     = true

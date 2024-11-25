@@ -22,7 +22,7 @@ resource "aws_db_parameter_group" "mysql_parameter_group" {
 }
 
 #launch an rds instance from a database
-resource "aws_db_instance" "database_instance" {
+resource "aws_db_instance" "dev_rds_db" {
   instance_class          = var.database_instance_class
   identifier              = var.database_instance_identifier
   engine                  = "mysql"

@@ -24,7 +24,7 @@ resource "aws_db_parameter_group" "mysql_parameter_group" {
 #launch an rds instance from a database
 resource "aws_db_instance" "dev_rds_db" {
   instance_class          = var.database_instance_class
-  identifier              = var.database_instance_identifier
+  identifier              = "dev-rds-db"
   engine                  = "mysql"
   engine_version          = "8.0.36"
   skip_final_snapshot     = true
@@ -36,7 +36,7 @@ resource "aws_db_instance" "dev_rds_db" {
   multi_az                = var.multi_az_deployment
   username                = var.db_username
   password                = var.db_password
-  db_name                 = var.db_username
+  db_name                 = var.db_name
   storage_encrypted       = true
   backup_retention_period = 7
   publicly_accessible     = true

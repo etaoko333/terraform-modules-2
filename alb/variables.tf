@@ -6,4 +6,4 @@ variable "public_subnet_az1_id" {}
 variable "public_subnet_az2_id" {}
 variable "target_type" {}
 variable "vpc_id" {}
-variable "acm_certificate_arn" {}
+variable "certificate_arn" {}

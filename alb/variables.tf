@@ -1,9 +1,9 @@
 # alb variables
-variable "project_nam" {}
+variable "project_name" {}
 variable "environment" {}
-variable "alb_security_group.id" {}
-variable "public_subnet_az1.id" {}
-variable "public_subnet_az2.id" {}
+variable "alb_security_group_id" {}
+variable "public_subnet_az1_id" {}
+variable "public_subnet_az2-id" {}
 variable "target_type" {}
 variable "vpc_id" {}
-variable "acm_certificate.arn" {}
+variable "acm_certificate_arn" {}

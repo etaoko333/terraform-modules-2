@@ -3,6 +3,15 @@
 Rental Car Web App on AWS with Terraform, Docker, Amazon ECR, and ECS
 Excited to share the completion of my latest project: a fully functional Dynamic Web Application deployed and hosted on AWS using Terraform, Docker, Amazon ECR, and Amazon ECS!
 
+
+
+![381447876-70955bca-4c0d-47fc-8391-00325190249a](https://github.com/user-attachments/assets/be034633-0ee0-4e27-933d-c0a1ff5051e4)
+
+
+
+
+
+
 This project stands out for its use of a wide array of AWS services, ensuring high availability, scalability, and security. It demonstrates the ability to architect and deploy complex infrastructure with modern DevOps practices.
 
 image

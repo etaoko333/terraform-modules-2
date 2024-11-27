@@ -89,7 +89,7 @@ copy and paste into it the following: https://github.com/etaoko333/docker-projec
 
 We will use a LAMP stack to build this application. A lamp stack is a group of open-source software that we can use to build a dynamic web application:
 
-![381432068-18821768-7307-4f1b-8281-f6163219b41d](https://github.com/user-attachments/assets/9d4fc87c-6090-40ba-8841-e48ffc210472)
+
 
 
 · Linux is the operating system we will use to run the stack.

@@ -1,5 +1,5 @@
 # terraform-modules-2
-I am so happy to share my latest projecy i recently deployed a Dynamic Rental Car Web App on AWS with Terraform, Docker, Amazon ECR, and ECS 🌐
+I am so happy to share my latest project i recently deployed a Dynamic Rental Car Web App on AWS with Terraform, Docker, Amazon ECR, and ECS 🌐
 
 ![381447876-70955bca-4c0d-47fc-8391-00325190249a](https://github.com/user-attachments/assets/be034633-0ee0-4e27-933d-c0a1ff5051e4)
 
@@ -57,14 +57,14 @@ Register a domain name if you don’t have it still on Route53. This will cost a
 Create a private repository to store the application codes
 Go to GitHub and create a new repository.
 
-I’ve named mine “application-codes-autorentify-project”
+I’ve named mine “application-codes”
 
 Download the required file from this link: https://github.com/etaoko333/application-code.git
 Add it to the repository folder in your local machine
 
-Open the repository “application-codes-autorentify-project” on VS code
+Open the repository “application-codes” on VS code
 
-Push it to GitHub “application-codes-autorentify-project”
+Push it to GitHub “application-codes”
 
 Create a personal access token on github
 This token will be used by docker to clone the application codes repository when we build our docker image
@@ -241,10 +241,15 @@ ssh -i <key_pier.pem> ec2-user@ -L 3306::3306 -N
 · <key_pier.pem> replace it with your key pair name
 
 · replace it with the public ipv4 address of your Bastion Host
+![Uploading 381432068-18821768-7307-4f1b-8281-f6163219b41d.png…]()
 
 · replace with your rds endpoint
 
 image image
+
+
+
+
 
 In VS Code navigate to the Flyway directory
 

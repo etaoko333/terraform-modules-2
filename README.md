@@ -355,6 +355,17 @@ image
 Push the changes to GitHub
 git add.
 
-git commit -m “created project files”
-
+git com mit -m “created project files”
+                                        
 git push
+
+Final outcome
+<img width="960" alt="2024-11-26 (9)" src="https://github.com/user-attachments/assets/27704d82-ff8a-4004-8058-b6dfdd2e48c5">
+
+
+
+<img width="960" alt="2024-11-26 (13)" src="https://github.com/user-attachments/assets/ca704b37-a4a8-4b53-90eb-9279226c8a85">
+
+
+<img width="960" alt="2024-11-26 (19)" src="https://github.com/user-attachments/assets/e3fa6767-40d6-408d-8c5e-c2bb531c174c">
+

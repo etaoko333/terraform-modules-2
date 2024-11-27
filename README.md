@@ -54,8 +54,7 @@ Go to GitHub and create a new repository.
 
 I’ve named mine “application-codes-autorentify-project”
 
-Download the required file from this link: https://github.com/Silas-cloudspace/application-codes-autorentify-project
-
+Download the required file from this link: https://github.com/etaoko333/application-code.git
 Add it to the repository folder in your local machine
 
 Open the repository “application-codes-autorentify-project” on VS code

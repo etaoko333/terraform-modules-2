@@ -18,10 +18,10 @@ image
 
 Create a new repository on GitHub.
 I’ve named mine: terraform module and clone it into your computer use both this link to deploy the application this is the step that i followed 
-project terraform modules.
+project terraform modules:
 https://github.com/etaoko333/terraform-modules-2.git
 
-project file
+project file:
 https://github.com/etaoko333/rentzone-infrastructure-ecs-2.git
 
 Create the remote backend

@@ -5,8 +5,6 @@ I am so happy to share my latest project i recently deployed a Dynamic Rental Ca
 
 This project stands out for its use of a wide array of AWS services, ensuring high availability, scalability, and security. It demonstrates the ability to architect and deploy complex infrastructure with modern DevOps practices.
 
-image
-
 Create a new repository on GitHub.
 I’ve named mine: terraform module and clone it into your computer use both this link to deploy the application this is the step that i followed 
 project terraform modules:
@@ -73,15 +71,13 @@ Github -> select your profile -> settings -> Developer settings -> Personal acce
 
 Edit it as you see in the following example:
 
-image
-
 Remember to copy your personal access token and save it anywhere
 Create a Dockerfile for a Dynamic Web App
 Crete a new repository on GitHub and call it “docker-projects”
 
 Open the repository docker-projects in VS Code
 
-Create a new folder for the application.
+Create a new folder for the application code.
 
 · Run: mkdir rentzone
 
@@ -93,7 +89,8 @@ copy and paste into it the following: https://github.com/etaoko333/docker-projec
 
 We will use a LAMP stack to build this application. A lamp stack is a group of open-source software that we can use to build a dynamic web application:
 
-image
+![381432068-18821768-7307-4f1b-8281-f6163219b41d](https://github.com/user-attachments/assets/9d4fc87c-6090-40ba-8841-e48ffc210472)
+
 
 · Linux is the operating system we will use to run the stack.
 
@@ -204,9 +201,9 @@ https://documentation.red-gate.com/fd/command-line-184127404.html?_ga=2.22721980
 
 If the sql folder is not included, you can create the folder yourself. Make sure to name the folder “sql”.
 
-image
+Update flyway: ![sql](https://github.com/user-attachments/assets/1c632001-663c-4b51-bcce-f8757e213fff)
+configuration file
 
-Update flyway configuration file
 It’s in this file where we enter the credentials of the database we want to connect to.
 
 Open the flyway folder in VS Code

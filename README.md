@@ -8,7 +8,7 @@ This project stands out for its use of a wide array of AWS services, ensuring hi
 image
 
 Create a new repository on GitHub.
-I’ve named mine: “car-rental-project”
+I’ve named mine: terraform module and clone it into your computer
 
 Create the remote backend
 Open the location of the repository in VS Code

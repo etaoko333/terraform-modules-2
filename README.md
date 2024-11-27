@@ -84,7 +84,7 @@ Create a new folder for the application.
 
 · touch Dockerfile
 
-copy and paste into it the following: https://github.com/Silas-cloudspace/rentzone-dockerfile/blob/main/rentzone/Dockerfile
+copy and paste into it the following: https://github.com/etaoko333/docker-project.git
 
 We will use a LAMP stack to build this application. A lamp stack is a group of open-source software that we can use to build a dynamic web application:
 
@@ -109,7 +109,7 @@ o In VS code navigate to rentzone folder
 
 o Create a new file and name it “AppServiceProvider.php”
 
-o Paste into it the following: https://github.com/Silas-cloudspace/rentzone-dockerfile/blob/main/rentzone/AppServiceProvider.php
+o Paste into it the following: docker-project/rentzone/AppServiceProvider.php
 
 o This file is to redirect http traffic to https
 
@@ -120,7 +120,7 @@ Create a new file
 
 o Run: touch build_image.ps1 (build_image.sh for mac)
 
-Copy and paste into it the following: https://github.com/Silas-cloudspace/rentzone-dockerfile/blob/main/rentzone/build_image.ps1
+Copy and paste into it the following: docker-project/rentzone/build_image.ps1
 
 Create a “.gitignore” file and add into it the “build_images.ps1”
 
@@ -270,7 +270,7 @@ cd rentzone
 
 touch rentzone.env
 
-Paste into it the following: https://github.com/Silas-cloudspace/rentzone-dockerfile/blob/main/rentzone/rentzone.env
+Paste into it the following: docker-project/rentzone/rentzone.env
 
 Replace it with your own information
 
